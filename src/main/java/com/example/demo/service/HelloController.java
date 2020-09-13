@@ -16,4 +16,10 @@ public class HelloController {
         return "lourenxiang";
     }
 
+    @GetMapping("/add-user")
+    public String addUser(){
+        return "add user";
+    }
+
+
 }
